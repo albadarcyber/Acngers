@@ -15,6 +15,8 @@ def slowprint(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(2.0 / 90)
+def clear():
+    return os.system("cls") if (platform.system() == 'Windows') else os.system("clear")
 clear()
 slowprint ('='*45)
 slowprint ('Welcome To Albadar Cyber')
