@@ -32,4 +32,4 @@ slowprint("1. Bruteforce")
 slowprint("="*45)
 albadar = str(input("albadarcyber==> "))
 if (albadar=='1') :
-  os.system('cd Bruteforce;albadar.py')
+  os.system('cd Bruteforce;python2 albadar.py')
