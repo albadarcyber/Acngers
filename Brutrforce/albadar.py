@@ -25,6 +25,7 @@ def slowprint(s):
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(2.0 / 90)
+clear()
 slowprint ('='*45)
 slowprint ('Welcome To Albadar Cyber')
 slowprint ('='*45)
